@@ -1,0 +1,66 @@
+div.pages-BookList{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgba(202, 202, 202, 0.3);
+    padding: 10px;
+    border-radius: 5px;
+    border: 2px solid gray;
+    margin-bottom: 10px;
+}
+
+input{
+    padding: 5px;
+    margin: 5px;
+    width: 300px;
+}
+
+button{
+    padding: 5px 20px;
+    margin: 5px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    background-color: rgb(45, 43, 43);
+}
+
+button.addBtn:hover{
+    background-color: rgba(12, 112, 14, 0.615);
+}
+
+button.sortBtn:hover{
+    background-color: rgba(155, 169, 31, 0.615);
+    color: black;
+}
+
+div.PostBook{
+    margin-top: 10px;
+    background-color: rgb(51, 51, 51);
+    max-width: 400px;
+    width: 100%;
+}
+
+ul{
+    list-style: none;
+    padding: 0 40px 40px 40px;
+}
+
+li{
+    background-color: rgb(81, 86, 90);
+    padding: 10px 20px;
+    margin: 10px;
+    word-break: break-all;
+}
+
+div.info-book{
+    text-align: start;
+}
+
+button.btn-remove:hover{
+    background-color: rgba(169, 31, 31, 0.615);
+}
